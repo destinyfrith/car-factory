@@ -1,5 +1,5 @@
 const createChassis = () => {
-    // New object with no properties.
+
     const newChassisObject = {}
 
     return newChassisObject
@@ -41,4 +41,4 @@ const addDriveTrain = (chassisObject) => {
 
 const carDriveTrain = addDriveTrain(carSteeringWheel)
 
-console.log(carDriveTrain)
+console.log(carDriveTrain) 
